@@ -34,5 +34,5 @@ insert into employees (first_name,last_name,email,job_title) values ('Gideon','M
 
 select * from customer;
 select first_name from customer;
-select first_name from customer where id = 1;
+select * from customer where id = 1;
 select * from employees;
